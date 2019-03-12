@@ -2,11 +2,17 @@
 
 ## 使用方法
 
+在使用前你必须保证自己将 dart 和 pub 配置到了环境变量中，否则无法使用
+
 1. `$ pub get`
 
-2. `$ dart bin/clean_flutter.dart ~/code/flutter`
+2. `$ dart bin/clean_flutter.dart ~/code/flutter` //这里的第三个就是你要清理的 flutter 目录
 
 ## 说明
+
+我这里随着进入 flutter 开发的领域越来越长，硬盘中积攒了大量的 demo，所以不可避免的占用了大量的磁盘空间（我这里清理前大概在 20G 左右）
+
+所以简单写了一个 dart 脚本工具用于清理,清理后占用空间缩小到不到 1G，这还是有公司项目的大量资源文件的情况下，以前每个 demo 大概需要 100M 左右，主要来自于 iOS 部分的库文件
 
 使用 flutter clean 删除 flutter 生成的构建文件，这部分包含 build 目录和 .dart_tool 目录
 
