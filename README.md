@@ -10,7 +10,7 @@
 
 ### 使用 pub global
 
-`$ pub global activate clean_flutter_build_file`
+`$ pub global activate clean_all_flutter_build`
 
 `$ clean_flutter_build_file ${flutter_project_path}`
 
